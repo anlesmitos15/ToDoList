@@ -13,7 +13,8 @@ function addwork() {
         </div>
     </div>
     `
-    document.getElementById("tareas").innerHTML+= template   
+    texto =='' ? null : document.getElementById("tareas").innerHTML+= template
+    //document.getElementById("tareas").innerHTML+= template   
     // texto=''
     document.getElementById("tarea").value=''
 
